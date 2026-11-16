@@ -1,5 +1,6 @@
 # IT Help Desk Common Tickets
 This project goes over 5 common helpdesk tickets and how I'd go about resolving them. Along with the documentation process.
+- After closing a ticket, I'd follow up with the user a day or two later to confirm their issue has not come back.
 
 
 ## Scenarios
