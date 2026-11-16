@@ -1,6 +1,6 @@
 # Scenario 3: Connected to Wi-Fi, no internet (APIPA)
 
-- [ ] Reproduced in my lab
+- [x] Reproduced in my lab
 
 ## Ticket
 
@@ -19,6 +19,8 @@
 4. On the DHCP server, look at scope statistics, address leases, and any filters.
 5. Search the DHCP audit log in System 32 for the laptop's MAC address to see if it's requests are going through.
 
+## Screenshots
+[See Screenshots Here](../screenshots/03-screenshots.md)
 
 ## Suspicions
 
