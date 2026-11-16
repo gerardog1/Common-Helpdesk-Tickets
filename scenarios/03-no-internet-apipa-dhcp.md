@@ -15,14 +15,15 @@
 
 1. Run `ipconfig /all` to see the IP. It shows a 169.254 address (APIPA)
 2. Release and renew the IP lease with `ipconfig /release` then `ipconfig /renew`. Renew fails with a DHCP server error.
-3. On the DHCP server, look at scope statistics, address leases, and any filters.
-4. Search the DHCP audit log in System 32 for the laptop's MAC address to see if it's requests are going through.
-5. Have them use their phone hotspot as a test. If the laptop is able to get an IP address there, then the laptop itself is fine.
+3. Have them use their phone hotspot as a test. If the laptop is able to get an IP address there, then the laptop itself is fine.
+4. On the DHCP server, look at scope statistics, address leases, and any filters.
+5. Search the DHCP audit log in System 32 for the laptop's MAC address to see if it's requests are going through.
+
 
 ## Suspicions
 
 - The DHCP server may be the problem. May need fixing or escalation.
-- Could be wrong AP, VLAN, or a MAC filter. Might need to be escalated to network team.
+- Could be different AP, VLAN, or a MAC filter. Might need to be escalated to network team.
 
 ## Sample escalation note
 
