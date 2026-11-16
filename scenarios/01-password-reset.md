@@ -23,7 +23,8 @@
 7. The user signs in with it and chooses a new password.
 
 ## Screenshots
-[See Screenshots Here](screenshots/01-screenshots.md)
+[See Screenshots Here](../screenshots/01-screenshots.md)
+
 ## Root cause
 
 The user forgot their password. Repeated wrong guesses had also locked the account, which is why the unlock box mattered.
