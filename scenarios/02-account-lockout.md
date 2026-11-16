@@ -1,6 +1,6 @@
 # Scenario 2: Account lockout
 
-- [ ] Reproduced in my lab
+- [x] Reproduced in my lab
 
 ## Ticket
 
