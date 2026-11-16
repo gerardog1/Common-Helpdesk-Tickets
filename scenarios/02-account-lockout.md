@@ -23,7 +23,7 @@
 I unlocked the account AFTER fixing the issue because otherwise the account could get locked again.
 
 ## Screenshots
-[See Screenshots Here](.../screenshots/02-screenshots.md)
+[See Screenshots Here](../screenshots/02-screenshots.md)
 
 
 ## Resolution note
