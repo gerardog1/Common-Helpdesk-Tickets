@@ -19,6 +19,8 @@
 4. On the DHCP server, look at scope statistics, address leases, and any filters.
 5. Search the DHCP audit log in System 32 for the laptop's MAC address to see if it's requests are going through.
 
+> Alternatively we could've also pinged: `ping 127.0.0.1`, `ping <gateway-ip>`, `ping 8.8.8.8`, `ping google.com` if the workstation had a valid IP address but still couldn't access the internet.
+
 ## Screenshots
 [See Screenshots Here](../screenshots/03-screenshots.md)
 
@@ -29,4 +31,4 @@
 
 ## Sample escalation note
 
-> Laptop connects to Wi-Fi but has an APIPA address. Started after user moved desk. Only this user is affected. ipconfig /release and ipconfig /renew fails with a DHCP error. MAC address not found in DHCP logs. She tried her phone hotspot and she gets a valid IP address
+> Laptop connects to Wi-Fi but has an APIPA address. Started after user moved desk. Only this user is affected. ipconfig /release and ipconfig /renew fails with a DHCP error. MAC address not found in DHCP logs. She tried her phone hotspot and she gets a valid IP address.
