@@ -8,32 +8,24 @@
 
 ## First checks
 
-1. **Verify the user's identity** by calling the number on file.
-2. **Ask whether they changed their password recently** and whether the account is used anywhere else, like a phone, a second PC, or a mapped drive. Something still using an old password is the most common cause of repeat lockouts.
+1. Verify it's really the user requesting. Call them on their known number on file.
+2. Ask them if they've changed their password recently or if they use the acocunt on other devices. Old credentials can be causing a lockout from another device.
 
 ## Steps
 
-1. On the domain controller, open **Event Viewer**, then **Windows Logs**, then **Security**.
-2. Click **Filter Current Log...**, enter event ID **4740**, and click OK.
-3. Open the newest event for the user. **Caller Computer Name** shows which machine keeps locking the account. (The domain controller acting as PDC emulator has the most complete record.)
-4. Fix the source: sign out the stale session, or update the saved password in Credential Manager on that machine.
-5. In **Active Directory Users and Computers**, find the user, open the **Account** tab, untick **Unlock account**, and click **Apply**.
-6. Ask the user to try again.
+1. On the DC, open Event Viewer and go to Windows Logs, then Security.
+2. Filter current log and enter event ID 4740.
+3. Open the newest event for the user.
+4. Sign out the stale session from the source machine, or update the password in credential manager.
+5. In ADUC, find the user and unlock their account.
+6. Ask the user to try signing in again.
 
-I unlock the account **after** fixing the source. Otherwise the stale password locks the account again within minutes.
+I unlocked the account AFTER fixing the issue because otherwise the account could get locked again.
 
 ## Screenshots
 [See Screenshots Here](.../screenshots/02-screenshots.md)
 
-## Root cause
 
-After the user's password changed, a session left logged in on another PC kept trying the old password until the account locked.
+## Resolution note
 
-## Sample ticket note
-
-> Account locked out. Verified identity by calling the number on file. Event 4740 showed the lockout source as a second PC with a session left logged in under the old password. Signed that session out, then unlocked the account. User confirmed login works. Resolved.
-
-## Key takeaways
-
-- Unlocking is only the symptom fix. A repeat lockout means something is still using an old password.
-- Event 4740 tells you which computer is the source.
+> Account was locked out, I verified it was them by calling the number for them on file. Event 4740 showed lockout source at another PC that had an old password. Signed out the session and unlocked account in ADUC. Confirmed they can log in. Resolved.
