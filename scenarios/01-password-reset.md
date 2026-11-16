@@ -11,6 +11,7 @@
 1. **Verify the user's identity.** I call the number already on file for them, not a number from the ticket. Anyone can type a name into a ticket, so I only trust contact details I already had.
 2. **Confirm they are at their desk in the office.** A password change works differently for someone off the network, so I want to know where they are.
 
+
 ## Steps
 
 1. Open **Active Directory Users and Computers**.
@@ -20,6 +21,9 @@
 5. Click **OK**.
 6. Call the user back and read the temporary password over the phone. It never goes in the ticket or an email.
 7. The user signs in with it and chooses a new password.
+
+
+
 
 ## Root cause
 
