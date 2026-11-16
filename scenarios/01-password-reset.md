@@ -22,6 +22,8 @@
 6. Call the user back and read the temporary password over the phone. It never goes in the ticket or an email.
 7. The user signs in with it and chooses a new password.
 
+## Screenshots
+[See Screenshots Here](01-screenshots.md)
 
 
 
