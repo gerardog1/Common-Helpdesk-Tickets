@@ -1,6 +1,6 @@
 # Scenario 4: Shared folder access
 
-- [ ] Reproduced in my lab
+- [x] Reproduced in my lab
 
 ## Ticket
 
