@@ -10,6 +10,7 @@
 
 1. Verify it's really the user requesting. Call them on their known number on file.
 2. Ask them if they've changed their password recently or if they use the acocunt on other devices. Old credentials can be causing a lockout from another device.
+3. Ask where they're working from. Working can home may indicate a VPN issue.
 
 ## Steps
 
