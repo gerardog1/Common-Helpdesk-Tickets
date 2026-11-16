@@ -25,8 +25,6 @@
 ## Screenshots
 [See Screenshots Here](01-screenshots.md)
 
-
-
 ## Root cause
 
 The user forgot their password. Repeated wrong guesses had also locked the account, which is why the unlock box mattered.
