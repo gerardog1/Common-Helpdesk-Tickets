@@ -20,6 +20,10 @@
 4. Ask the user to sign out and back in.
 5. Confirm they can open the drive.
 
+## Screenshots
+
+[See Screenshots Here](../screenshots/04-screenshots.md)
+
 ## Root cause
 
 The user was not in the security group that grants access to the folder.
