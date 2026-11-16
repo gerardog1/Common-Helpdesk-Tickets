@@ -1,6 +1,6 @@
 # Scenario 1: Forgotten password
 
-- [ ] Reproduced in my lab
+- [x] Reproduced in my lab
 
 ## Ticket
 
