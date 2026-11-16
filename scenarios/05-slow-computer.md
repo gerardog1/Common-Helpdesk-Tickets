@@ -14,7 +14,7 @@
 
 1. With the User's permission, remote into their PC.
 2. Open Task manager and on the Processes tab take note of any high percentages, sort by Memory by clicking it.
-3. Go to Performance tab and then CPU, look at the up time.
+3. Go to Performance tab and then CPU, look at the uptime.
 4. Uptime is high. Ask the user to save their work so we can restart the PC.
 5. Have them confirm their usual programs feel normal.
 6. Advise them to restart their PC at least once a week.
@@ -23,6 +23,6 @@
 
 Memory use was high (about 90%) after more than a month without a restart.
 
-## Sample ticket note
+## Sample resolution note
 
 > User reported a slow PC. Task manager showed memory at 91% and uptime of 35 days. Had the user save their work and restart their PC. User confirmed that performance felt normal again. Advised weekly restarts. Resolved.
