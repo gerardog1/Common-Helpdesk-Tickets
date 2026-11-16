@@ -1,5 +1,5 @@
 # IT Help Desk Common Tickets
-This project goes over 5 common helpdesk tickets and how I'd go about resolving them.
+This project goes over 5 common helpdesk tickets and how I'd go about resolving them. Along with the documentation process.
 
 
 ## Scenarios
