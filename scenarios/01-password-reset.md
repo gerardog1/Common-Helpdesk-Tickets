@@ -8,7 +8,7 @@
 
 ## First checks
 
-**Verify the user's identity.** I'll call the number on file for the user, verifying it's actually them.
+Verify the user's identity. I'd call the number on file for the user and verify it's actually them.
 
 
 ## Steps
